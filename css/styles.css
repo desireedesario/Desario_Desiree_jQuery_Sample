@@ -1,0 +1,76 @@
+/* style.css
+   Author: DesireeDesario
+   Date: Sept. 2015
+*/
+
+#animatePika {
+	position: relative;
+	border: 2px solid brown;
+	background-color: yellow;
+	width: 176px;
+	height: 305px;
+	padding: 20px;
+	padding: 10px;
+	font-size: 24px;
+}
+.ImgDiv {
+	height: 170px;
+	width: 1120px;
+}
+.reactionImg {
+	width: 300px;
+	height: 200px;
+}
+.reactionBtn {
+	height: 15px;
+	width: 800px;
+}
+#hoverDiv {
+	height: 200px;
+}
+.container {
+	padding: 10px;
+	overflow: hidden;
+	width: 9300px;
+}
+.caption {
+	display: none;
+}
+#caption2 {
+	padding-left: 360px;
+}
+#caption3 {
+	padding-left: 720px;
+}
+#subhead {
+	position: relative;
+	width: 150px;
+	height: 150px;
+	background-color: #ABCDEF;
+}
+#subhead p {
+	color: #A908B4;
+}
+#output {
+	padding: 5px;
+	color: tomato;
+	font-size: 27px;
+}
+.galleryEports {
+	width: 731px;
+	overflow: hidden;
+	padding: 10px 10px 10px 19px;
+}
+.thumbnailEsports {
+	padding: 10px;
+	float: left;
+	margin: 10px;
+}
+.bigdiv {
+	height: 400px;
+	width: 500px;
+}
+.clearfix {
+	overflow: auto;
+	zoom: 1;
+}

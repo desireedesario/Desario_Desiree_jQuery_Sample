@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>jQuery Practice</title>
+
+<!-- my CSS stylesheet -->
+<link href="css/styles.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+<h1>
+  <center>
+    Desi Desario's jQuery practice
+  </center>
+</h1>
+
+<!-- ANIMATE -->
+<h2>Animate an image</h2>
+<div id="animatePika"> <img src="img/pikachu1.png"> </div>
+<input id="btn_change" type="button" value="Pikachu, Change Backgroundcolor!">
+<br>
+<input id="btn_change2" type="button" value="Pikachu, Quick Attack!">
+<br>
+<input id="btn_change3" type="button" value="Pikachu, Evolve!">
+<br>
+<input id="btn_change4" type="button" value="Pikachu, Disappear!">
+<br>
+<!-- END ANIMATE -->
+
+<!-- TOGGLE -->
+<h2>Toggle though eSports</h2>
+<div class="ImgDiv"> <img src="img/commentatorsSideFaces.jpg" class="reactionImg" id="toggle1a"/> <img src="img/crowdlight.jpg" class="reactionImg" id="toggle2a"/> <img src="img/front.jpg" class="reactionImg" id="toggle3a"/> </div>
+<br>
+<br>
+<div class="reactionBtn">
+  <input id="button1" type="button" value="Commentators">
+  <input id="button2" type="button" value="The Crowd">
+  <input id="button3" type="button" value="The Stage">
+</div>
+
+<!-- END TOGGLE -->
+
+<!-- HOVER CAPTION -->
+<h2>Hover for Caption</h2>
+<div id="hoverDiv">
+  <div class="ImgDiv"> <img src="img/commentatorsSideFaces.jpg" class="reactionImg" id="hoverImg2a"/> <img src="img/crowdlight.jpg" class="reactionImg" id="hoverImg2b"/> <img src="img/front.jpg" class="reactionImg" id="hoverImg2c"/> </div>
+</div>
+<div class="reactionBtn">
+  <p class="caption" id="caption1">COMMENTATORS</p>
+  <p class="caption" id="caption2">CROWD</p>
+  <p class="caption" id="caption3">STAGE</p>
+</div>
+<div class="clearfix"> </div>
+
+<!-- END HOVER CAPTION -->
+
+</div>
+
+<!-- ANIMATE TEXT -->
+<h2>Hugify! (Lulu reference)</h2>
+<div id="subhead">
+  <p>What are eSports?</p>
+</div>
+<!-- END ANIMATE TEXT -->
+
+<!-- Adding Info -->
+<div>
+  <h2>What are eSports?</h2>
+  <h1 id="h1_abc">There are various types of games that are considered "eSports": <br>
+  </h1>
+  <p id="p_a"> eSports games come in many forms, such as fighting games that consist of two players
+    virtually fighting against each other. Games like Nintendo's Super Smash Brothers, and
+    Capcom's Street Fighter are in that category. </p>
+  <input id="btn_fightingGames" type="button" value="Fighting Games">
+  <p id="p_b"> There are first-person shooting games that involve two teams dodging and shooting
+    opponents for points on a map built with barriers and hiding spots. These games include
+    Xbox's Halo, and Valve Corporation's Counter Strike. </p>
+  <input id="btn_fps" type="button" value="FPS">
+  <p id="p_c"> The most popular eSports games today are strategy games that consist of two teams of
+    five players each. A player controls one character on a team and uses a limited amount of
+    abilities of their choosing to take over an entire battlefield. An example of games like this
+    would be Valve Corporation's DOTA 2 and Riot Game's League of Legends. </p>
+  <input id="btn_moba" type="button" value="MOBA">
+</div>
+<!-- END ADDING INFO -->
+
+<!-- INPUT FEILD -->
+<div>
+  <h2>Input Field</h2>
+  <p>What is your name?</p>
+  <input id="yourname" type="text">
+  </input>
+  <button id="btn_yourname">Tell me here!</button>
+</div>
+<br>
+<div id="output"> </div>
+<!-- END INPUT FIELD -->
+
+<!-- PHOTO GALLERY -->
+<div class="galleryEports">
+  <h2>Photo Gallery</h2>
+  <div class="thumbnailEsports"> <img src="img/crowdlightThumb.jpg" data-photo="img/crowdlight.jpg"> </div>
+  <div class="thumbnailEsports"> <img src="img/commentatorsSideFacesThumb.jpg" data-photo="img/commentatorsSideFaces.jpg"> </div>
+  <div class="thumbnailEsports"> <img src="img/frontThumb.jpg" data-photo="img/front.jpg"> </div>
+</div>
+<br>
+<br>
+<div id="bigdiv"> <img src="img/background.jpg"> </div>
+<br>
+<br>
+<!-- END PHOTO GALLERY -->
+
+<!-- MINI CALCULATOR -->
+<div>
+  <input id="firstinput" type="text"/>
+  <button id="btn_add">+</button>
+  <input id="secondinput" type="text"/>
+  <div id="total">TOTAL IS...</div>
+</div>
+
+<!-- END CALCULATOR -->
+
+<!-- JAVASCRIPT -->
+<script src="js/jquery.js"></script>
+<script src="js/script.js"></script>
+</body>
+</html>
